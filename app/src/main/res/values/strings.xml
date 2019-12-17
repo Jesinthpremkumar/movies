@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="lv">movie</string>
+    <string name="movies_list">Movies List</string>
+    <string name="movies">Movies</string>
+    <string name="loading">Loading</string>
+</resources>

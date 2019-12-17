@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jasinthpremkumar.movies.Main2Activity">
+
+    <TextView
+        android:id="@+id/textView"
+
+        android:layout_width="368dp"
+        android:layout_height="71dp"
+        android:height="70dp"
+        android:background="@android:color/darker_gray"
+        android:backgroundTint="@android:color/background_dark"
+        android:text="@string/movies_list"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorHint="@color/colorAccent"
+        android:textIsSelectable="false"
+        android:textSize="45sp"
+        android:textStyle="normal|bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.563" />
+    <ScrollView
+        android:id="@+id/scrollView2"
+        style="@android:style/Widget.DeviceDefault.Light.ScrollView"
+        android:layout_width="385dp"
+        android:layout_height="505dp"
+        android:minHeight="1000dp"
+        android:scrollbarStyle="insideOverlay"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_default="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintWidth_default="spread">
+
+        <RelativeLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="94dp" />
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
